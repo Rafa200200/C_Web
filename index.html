@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>Modalma</title>
+    
+    <link rel="stylesheet" type="text/css" href="fashion.css">
+    <script src="loja.js" async> </script>
+    
+    </head>
+    <body>     
+        
+        
+        <div class="subbox">
+            <ol>
+            <li style="left: 3%;"><h2>Modalma</h2></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mulher.html">Mulher</a></li>
+            <li><a href="homem.html">Homem</a></li>
+            <li><a href="crianca.html">Criança</a></li>
+            <li><a href="https://goo.gl/maps/3x9EBuDipeEQvmnm9" target="_blank">Maps</a></li>
+            <li><a href="https://www.facebook.com/modalmalmeida/" target="_blank">Contacto</a></li>
+            </ol>
+        </div>
+        
+        
+        <div class="cover">
+        <img src="portasalmeida.jpg">
+        
+            <div class="text">
+            <h1>Nova loja de roupa!</h1>
+                <h4>Coleção primavera/verão</h4>
+            </div>
+        
+        </div>
+        
+        
+        <div class="image-container">
+          <div class="image">
+            <a href="mulher.html">
+              <img src="indexmulher.webp">
+              <div class="overlay">
+                <div class="middle">
+                  <div class="hovertext">MULHER</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+          <div class="image">
+            <a href="crianca.html">
+              <img src="indexcrianca.webp">
+              <div class="overlay">
+                <div class="middle">
+                  <div class="hovertext">CRIANÇA</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+          <div class="image">
+            <a href="homem.html">
+              <img src="indexhomem.webp">
+              <div class="overlay">
+                <div class="middle">
+                  <div class="hovertext">HOMEM</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+        
+
+        <div class="footer" style='width: 99.2%'>
+            <br><br>
+            <p >Created by Fábio Maio & Rafael Lourenço © 2023</p>
+                    <!-- the DIV that will contain the widget -->
+        <div class="weatherWidget"></div>
+        <script>
+          window.weatherWidgetConfig = window.weatherWidgetConfig || [];
+          window.weatherWidgetConfig.push({
+            selector:".weatherWidget",
+            apiKey:"URE46PZZSR75GN5423LD2V7GG",
+            location:"Almeida, PT",
+            unitGroup:"metric",
+            forecastDays:1,
+            title:"Almeida,PT",
+            showTitle:true,
+            showConditions:true
+          });
+        
+          (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://www.visualcrossing.com/widgets/forecast-simple/weather-forecast-widget-simple.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
+          </div>
+
+        
+    </body>
+</html>

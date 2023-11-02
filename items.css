@@ -1,0 +1,405 @@
+.box1{
+    border: 1px solid black;
+    background-color: black;
+    height: 30px;
+}
+
+ul{
+    float: left;
+    color:white;
+}
+
+ul li{
+    margin-top: -10px;
+    float: left;
+    position: relative;
+    left: 300%;
+    width: 100px;
+    font-size: 14px;
+    font-family: barlow condensed,sans-serif;
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+h5{
+    margin-top: 1px;
+    color: white;
+    margin: 7px 12px;
+    position: relative;
+    left: -18%;
+    font-family: barlow condensed,sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.subbox{
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    height: 50px;
+    
+}
+
+ol{
+    float: center;
+    
+}
+ol li{
+    float:left;
+    width: 90px;
+    position: relative;
+    left: 33%;
+    list-style-type: none;
+    font-family: barlow condensed,sans-serif;
+    font-size: 18px;
+}
+ol li a{
+    text-decoration: none;
+    color:black;
+}
+
+ol li a:hover{
+    border-bottom: 4px solid red;
+}
+
+h3{
+    color:red;
+    position: absolute;
+    left: 88.8%;
+    top:4%;
+    width: 18px;
+    height: -50px;
+    border-radius: 100px;
+    text-align: center;
+    font-family: barlow condensed,sans-serif;
+}
+
+h2{
+    position: relative;
+    left: -61.2%;
+    text-transform: uppercase;
+    font-family: barlow condensed,sans-serif;
+    margin-top:4px;
+    font-weight:bolder;
+}
+font{
+    color: red;
+}
+.cover img{
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+.text{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+
+
+
+h4{
+    position: absolute;
+    top:-4%;
+    font-size: 20px;
+    font-family: barlow condensed,sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h6{
+    color:black;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    border:1px solid whitesmoke;
+    width: 200px;
+    font-size: 40px;
+    font-family: barlow condensed,sans-serif;
+    background-color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+h{
+    color:black;
+    position: absolute;
+    left: 20%;
+    top: 55%;
+    border:1px solid whitesmoke;
+    width: 200px;
+    font-size: 40px;
+    font-family: barlow condensed,sans-serif;
+    background-color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+
+t{
+    color:black;
+    position: absolute;
+    left: 20%;
+    top: 55%;
+    border:1px solid whitesmoke;
+    width: 200px;
+    font-size: 40px;
+    font-family: barlow condensed,sans-serif;
+    background-color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+.footer{
+    position:absolute;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    height: 20%;
+    text-align: center;
+    margin: 0 ;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.shop-item-price {
+  color: grey;
+  font-size: 22px;
+}
+.shop-item-image {
+    height: 500px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+    height: 70%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 20px auto 40px auto;
+    font-size: 1.5em;
+    flex-basis: 48%;
+  } 
+
+
+.weatherWidget {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

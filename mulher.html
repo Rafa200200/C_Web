@@ -1,0 +1,112 @@
+<html>
+<head>
+    <title>Modalma Mulher</title>
+    
+    <link rel="stylesheet" type="text/css" href="items.css">
+    <script src="loja.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="pdf.js"></script>
+    </head>
+    <body>     
+        <div class="subbox">
+
+            <ol>
+            <li style="left: 3%;"><h2>Modalma</h2></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mulher.html">Mulher</a></li>
+            <li><a href="homem.html">Homem</a></li>
+            <li><a href="crianca.html">Criança</a></li>
+            <li><a href="https://goo.gl/maps/3x9EBuDipeEQvmnm9" target="_blank">Maps</a></li>
+            <li><a href="https://www.facebook.com/modalmalmeida/" target="_blank">Contacto</a></li>
+            </ol>
+        </div>
+        
+        <table>
+            <tr>
+              <th>
+                <div class="card">
+                    <img class="shop-item-image" src="mtshirt1.webp" style="width:100%">
+                    <h1 class="shop-item-title">Saia de Ganga</h1>
+                        <p class="shop-item-price">9.99€<p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                  </div>
+              </th>
+              <th>
+                <div class="card">
+                    <img class="shop-item-image" src="mtshirt2.webp" style="width:100%">
+                    <h1 class="shop-item-title">Jeans Rasgões</h1>
+                    <p class="shop-item-price">29.99€</p>
+                    <button class="btn btn-primary shop-item-button" type="button">Add to Cart</button>
+                  </div>
+              </th>
+              <th>
+                <div class="card">
+                    <img class="shop-item-image" src="mtshirt3.webp" style="width:100%">
+                    <h1 class="shop-item-title">Top Fluído</h1>
+                    <p class="shop-item-price">5.99€</p>
+                    <button class="btn btn-primary shop-item-button" type="button">Add to Cart</button>
+                  </div>
+              </th>
+              <th>
+                <div class="card">
+                    <img class="shop-item-image" src="mtshirt4.webp" style="width:100%">
+                    <h1 class="shop-item-title">Saia Floral</h1>
+                    <p class="shop-item-price">12.99€</p>
+                    <button class="btn btn-primary shop-item-button" type="button">Add to Cart</button>
+                  </div>
+              </th>
+            </tr>
+
+          </table>
+
+
+          <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <div class="button-container">
+              <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+              <button class="btn btn-primary btn-purchase" onclick="gerarPDF()">Gerar PDF do Carrinho</button>
+              </div>
+            
+        </section>
+
+
+
+        <div class="footer" style='width: 99.2%'>
+          <br><br>
+          <p >Created by Fábio Maio & Rafael Lourenço © 2023</p>
+                  <!-- the DIV that will contain the widget -->
+      <div class="weatherWidget"></div>
+      <script>
+        window.weatherWidgetConfig = window.weatherWidgetConfig || [];
+        window.weatherWidgetConfig.push({
+          selector:".weatherWidget",
+          apiKey:"URE46PZZSR75GN5423LD2V7GG",
+          location:"Almeida, PT",
+          unitGroup:"metric",
+          forecastDays:1,
+          title:"Almeida,PT",
+          showTitle:true,
+          showConditions:true
+        });
+      
+        (function() {
+          var d = document, s = d.createElement('script');
+          s.src = 'https://www.visualcrossing.com/widgets/forecast-simple/weather-forecast-widget-simple.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+        </div>
+    </body>
+</html>
